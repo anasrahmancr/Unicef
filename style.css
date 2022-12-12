@@ -16,6 +16,7 @@ body{brn1
 .top-nav{
     padding: 0 30px;
     margin: 0;
+    display: none;
 }
 
 ul {
@@ -365,6 +366,12 @@ li {
     .brn1{
         font-size: 20px;
 }
+
+.top-nav{
+    
+    display: block;
+}
+
 
     
 }
