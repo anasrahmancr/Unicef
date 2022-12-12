@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.top-nav{
+    padding: 0 30px;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    justify-content: end;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #595959;
+}
+
+li {
+    list-style: none;
+    padding: 0 5px;
+   
+}
+
+.right-nav{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.mid-nav{
+    background: #1cabe2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.unicef-logo {
+    padding: 22px 0;
+}
+
+.donate {
+    padding: 10px 20px;
+    background: white;
+    color: #e34e09;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px -2px rgb(0 0 0 / 10%), 0 3px 4px 0 rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
+
+.press-centre {
+    padding: 7px 20px;
+    background: #1cabe2;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 3px solid white;
+    font-size: 14px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+.fcc-btn{
+    text-decoration: none;
+}
+footer {
+    background-color: #1cabe2;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#joinunicef{
+    background-color: white; 
+    color: rgb(222, 82, 32);
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    width: 160px;
+    height: 50px;
+}
+.donor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.navbar-nav ul li a{
+    display: flex;
+    justify-content:flex-end;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.sec-two{
+    background-color: #f1f1f1;
+}
+.sec-four{
+    background-color: #f1f1f1;
+}
+.container-1 {
+    position: relative;
+    text-align: center;
+    
+}
+
+.image-1 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.inner-container {
+    bottom: 0;
+    padding: 15px 20px 40px 20px;
+    width: 100%;
+    margin: 0px;
+}
+
+
+.emergency{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+    display: inline;
+    margin: 0;
+    background-color: #404040;
+    color: #fff;
+    padding: 0 12px;
+}
+@media only screen and (max-width: 768px) {
+    .inner-container {
+        background-color: #404040;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .inner-container {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%,0);
+    }
+}
+@media only screen and (min-width: 992px) {
+    .emergency {
+        font-weight: bold;
+        font-style: normal;
+        font-size: 56px;
+        line-height: 72px;
+    }
+    .inner-container {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%,0);
+    }
+}
+
+.learn-more{
+    display: block;
+}
+
+.inner-container button {
+    display: inline-block;
+    background-color: #1cabe2;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 16px;
+    box-shadow: 0 3px 3px -2px rgb(0 0 0 / 10%), 0 3px 4px 0 rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.explorewhatbtn{
+    text-align: center;
+    margin-top: 40px;
+}
+.col-lg-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.col-lg-4 img{
+    margin-bottom: 10px;
+}
+.top-nav{
+    padding: 0 30px;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    justify-content: end;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #595959;
+}
+
+li {
+    list-style: none;
+    padding: 0 5px;
+   
+}
+
+.right-nav{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.mid-nav{
+    background: #1cabe2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.unicef-logo {
+    padding: 22px 0;
+}
+
+.donate {
+    padding: 10px 20px;
+    background: white;
+    color: #e34e09;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px -2px rgb(0 0 0 / 10%), 0 3px 4px 0 rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
+
+.press-centre {
+    padding: 7px 20px;
+    background: #1cabe2;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 3px solid white;
+    font-size: 14px;
+}
+.colm{
+    display: flex;
+    flex-direction: column;
+}
+.container-final{
+    margin: 0;
+    color: #fff;
+    display: flex;
+    background-color: #e34e09;
+}
+
+.inner-final-left {
+    padding: 0; 
+}
+
+
+.image-final{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    overflow: hidden;
+}
+
+.inner-final-right h2 {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0;
+}
+
+.inner-final-right button{
+    color: #e34e09;
+    background: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    min-width: 160px;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 3px 3px -2px rgb(0 0 0 / 10%), 0 3px 4px 0 rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
+
+
+.inner-final-right{
+    margin: auto;
+    padding: 110px 30px;
+    background-color: #e34e09;
+    align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container-final{
+        display: block;
+    }
+
+    .inner-final-right {
+        padding: 15px 20px 20px 20px;
+    }
+}
+
+.inner-final-right p {
+    font-size: 18px;
+    margin-top: 10px;
+}
