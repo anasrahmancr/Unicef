@@ -1,7 +1,16 @@
-body{
+body{brn1
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+.logo{
+    height: 20px; max-height: unset; max-width: unset;
+}
+
+.brn1{
+   
+        font-size: 5px;
 }
 
 .top-nav{
@@ -61,7 +70,7 @@ li {
     border-radius: 5px;
     font-weight: bold;
     border: 3px solid white;
-    font-size: 14px;
+    
 }
 
 *{
@@ -263,7 +272,7 @@ li {
     border-radius: 5px;
     font-weight: bold;
     border: 3px solid white;
-    font-size: 14px;
+    
 }
 .colm{
     display: flex;
@@ -338,3 +347,25 @@ li {
     font-size: 18px;
     margin-top: 10px;
 }
+
+@media(min-width:540px){
+    .logo{
+        height: 25px; max-height: unset; max-width: unset;
+    }
+    .brn1{
+        font-size: 8px;
+}
+
+}
+
+@media(min-width:768px){
+    .logo{
+        height: 50px; max-height: unset; max-width: unset;
+    }
+    .brn1{
+        font-size: 20px;
+}
+
+    
+}
+
